@@ -1,6 +1,11 @@
 body {
-	background-color: gray;
+	background: url("<img src="anninhk.github.io/unit03/assets/background.jpg">);
 
 }
-hr {}
+hr {
+	width: 40px;
+}
+p {
+	font-size: 22px;
+}
 a {}
