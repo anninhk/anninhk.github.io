@@ -1,12 +1,14 @@
 body {
-	background: url("<img src="../anninhk.github.io/blob/master/unit03/assets/background.jpg">);
+	background:url("images/stripes.png), url("images/background.jpg); background-color: #52596b;
 
 }
 hr {
-	<hr align: left; width: 10%; color: red;
+	<hr align: left; width: 5%; height: 5px; float: left; background-color: red; color: red;
 
 }
 p {
-	font-family: arial; font-size: 18px;
+	font-family: arial; font-size: 26px;
 }
-a {}
+a {
+	background: url("images/btn_store.png"),
+}
