@@ -1,14 +1,52 @@
 body {
-	background:url("images/stripes.png), url("images/background.jpg); background-color: #52596b;
+	background:url("assets/stripes.png"), url("assets/background.jpg"); background-color: #52596b;
+	background-repeat: repeat-x, no-repeat; 
+	font-size: 26px;
+	font-family: helvetica, arial, sans-serif;
+	color: #ffffff;
+	margin: 270px 200px;
+	font-weight: 200;
+	line-height: 32px
+	}
 
-}
-hr {
-	<hr align: left; width: 5%; height: 5px; float: left; background-color: red; color: red;
+	h1 {
+		background: url("assets/logo-taasky.png");
+		background-repeat: no-repeat;
+		display: block;
+		width: 147px;
+		height: 44px
 
+		/* Hide Text */
+		text-indent:1000em;
+		white-space: nowrap;
+		overflow: hidden;
+		}
+
+		hr {
+		border-color: #905067;
+		margin: 0px;
+		width:100px;
+		height:3px;
+		border: none;
+		background-color: #905067;
+		}
+
+	p {
+	
 }
-p {
-	font-family: arial; font-size: 26px;
-}
-a {
-	background: url("images/btn_store.png"),
-}
+
+	a {
+		background: url("assets/btn_store.png");
+		background-repeat: no-repeat;
+		display: block;
+		width: 246px;
+		height: 74px;
+
+		/* Hide Text */
+		text-indent: 1000em;
+		white-space: nowrap;
+		overflow: hidden;
+	}
+
+
+
