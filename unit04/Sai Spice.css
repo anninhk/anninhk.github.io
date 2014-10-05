@@ -1,0 +1,21 @@
+body {
+		background-url()
+		background-repeat: repeat-x;
+		font-size: 26;
+		font-family:  "trebuchet MS", "Helvetica", sans-serif;
+		font-weight: bold;
+		margin: 270 200;
+		line-height: 32px;
+		border-bottom: 4px dotted;
+		margin-bottom: 30px;
+		padding-bottom: 20px;
+
+}
+
+h1 {}
+
+p{border-bottom: 4px dotted;
+		margin-bottom: 30px;
+		padding-bottom: 20px;
+		
+}
