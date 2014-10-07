@@ -1,6 +1,7 @@
 body {
-		background:url(Assets/saispice logo_white_small_cropped.jpg");
-		background-position: center;
+		
+		background-attachment: fixed;
+    	background-position: 20% 30%; 
 		background-color: #ffa732;
 		font-family:  "trebuchet MS", "Helvetica", sans-serif;
 		font-weight: bold;
@@ -11,6 +12,15 @@ body {
 		margin-right: 200px;
 		margin-bottom: 30px;
 		padding-bottom: 20px;
+	}
+		
+		#logo {
+			width: 470px;
+			margin: auto;
+
+		}
+img {src="Assets/red_chili_small.jpg">
+		background-position: 20px 50px
 
 }
 
@@ -25,4 +35,12 @@ p{
 	margin-right:200px;
 
 }
-footer 
+footer {
+	width:90%;
+margin:auto;
+text-align:right;
+clear:both;
+font-family: MS Serif;
+font-size: 12px;
+font-style: italic;
+}
