@@ -4,10 +4,11 @@ body {
     	background-position: 20% 30%; 
 		background-color: #ffa732;
 		font-family:  "trebuchet MS", "Helvetica", sans-serif;
+		font-color: 65141b;
 		font-weight: bold;
 		font-size: 16px;
 		line-height: 22px;
-		border-bottom: 4px dotted;
+		border-bottom: 4px ;
 		margin-left: 200px;
 		margin-right: 200px;
 		margin-bottom: 30px;
@@ -17,6 +18,8 @@ body {
 		#logo {
 			width: 470px;
 			margin: auto;
+		}
+		
 
 		}
 img {src="Assets/red_chili_small.jpg">
@@ -25,14 +28,24 @@ img {src="Assets/red_chili_small.jpg">
 }
 
 h1 {
-	color: #0d6bff;
+	color: #65141b;
 	text-align: center;
 }
 
 p{
-	color: #0d6bff;
+	color: #65141b;
 	margin-left:200px;
 	margin-right:200px;
+
+ul{
+	font-color: #65141b;
+}
+
+	#chilli {
+			width: 500px;
+			margin: auto;
+			margin-left: 426;
+		}	
 
 }
 footer {
