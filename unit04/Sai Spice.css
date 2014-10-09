@@ -15,45 +15,46 @@ body {
 		padding-bottom: 20px;
 	}
 		
-		#logo {
-			width: 470px;
-			margin: auto;
+			#logo {
+				width: 450px;
+				margin: auto;
 		}
 		
 
+		img {src="Assets/red_chili_small.jpg">
+			background-position: 20px 50px
+
 		}
-img {src="Assets/red_chili_small.jpg">
-		background-position: 20px 50px
 
-}
+		h1 {
+			font-family: georgia;
+			color: #65141b;
+			text-align: center;
+			}
 
-h1 {
-	color: #65141b;
-	text-align: center;
-}
+		p{
+			color: #65141b;
+			margin-left:200px;
+			margin-right:200px;
+		}
 
-p{
-	color: #65141b;
-	margin-left:200px;
-	margin-right:200px;
+		ul{
+			font-family: "trebuchet MS", "Helvetica", sans-serif;
+			font-color: #65141b;
+		}
 
-ul{
-	font-color: #65141b;
-}
-
-	#chilli {
-			width: 500px;
-			margin: auto;
-			margin-left: 426;
+			#chilli {
+				width: 500px;
+				margin: auto;
+				margin-left: 426;
 		}	
 
-}
-footer {
-	width:90%;
-margin:auto;
-text-align:right;
-clear:both;
-font-family: MS Serif;
-font-size: 12px;
-font-style: italic;
+		footer {
+			width:90%;
+			margin:auto;
+			text-align:right;
+			clear:both;
+			font-family: MS Serif;
+			font-size: 12px;
+			font-style: italic;
 }
