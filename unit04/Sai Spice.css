@@ -14,11 +14,11 @@ body {
 		margin-bottom: 30px;
 		padding-bottom: 20px;
 	}
-		
-			#logo {
-				width: 450px;
-				margin: auto;
+		.wrapper{
+			width:600px;
+			margin: 0 auto;
 		}
+			
 		
 
 		img {src="Assets/red_chili_small.jpg">
@@ -40,9 +40,10 @@ body {
 
 		ul{
 			font-family: "trebuchet MS", "Helvetica", sans-serif;
-			font-color: #65141b;
+			color: #65141b;
 		}
 
+			.wrapper
 			#chilli {
 				width: 500px;
 				margin: auto;
