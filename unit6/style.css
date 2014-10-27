@@ -1,10 +1,63 @@
 body 
 { 
   font-family: 'Droid Sans', 'Helvetica', sans-serif;
-  background-color: #c4c4c4;}
+  background-color: #c4c4c4;
+}
 
  
-  
+    #nav {
+      background-color: #e3170d; 
+      margin-left: 0px;
+      margin-right: 0px;
+          }
+
+       img {
+          float: left;
+            }
+
+       ul {
+          list-style-type: none;
+          margin: 20%;
+          padding: 0;
+          float: right;
+        }
+       ul li {
+          float: right;
+            }
+
+        a {
+          display: block;
+          width: 60px;
+      }
+
+   
+}
+    font-size: 22px;
+    
+  }
+
+    #masthead {
+      background-color: 16dbbb;
+      position: relative;
+      
+    }
+
+  h1 {
+    font-family: "Niconne";
+    font-size: 64px;
+    float: right;
+
+
+  }
 
 
 
+  h2 {
+    font-family: "Oswald bold";
+    font-size: 22px;
+
+  }
+
+#main {
+  position: 
+}
