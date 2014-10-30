@@ -1,64 +1,68 @@
-body 
-{ 
-  font-family: 'Droid Sans', 'Helvetica', sans-serif;
-  background-color: #c4c4c4;
-}
+
 
  
-    #nav {
-      background-color: #e3170d; 
-      margin: 0px;
-      width: 100%;
-      
-          }
+body {
+background: #c6baba;
+width:100%;
+font-size: 14px;
+font-family: 'Droid Sans', 'Helvetica', sans-serif;
+padding:10px auto 0 auto;
+margin:auto;
 
-       img {
-          float: left;
-            }
+}
 
-       ul {
-          list-style-type: none;
-          margin: 20%;
-          padding: 0;
-          float: right;
-        }
-       ul li {
-          float: right;
-            }
 
-        a {
-          display: block;
-          width: 60px;
-      }
 
+.container {
+  background-color: #e3170d; 
+  border-bottom: 10px solid #ffffff;
+}
+
+
+.navigation {
+  letter-spacing: 2px;
+  word-spacing: 75px;
+  font-weight: bold;
+  font-size: 120%;
+  float: right;
+  padding: 38px 50px 13px 15px;
+
+}
+
+
+
+.logo {
+ 
+}
+
+
+.masthead {
+  background-color: 16dbbb;
+  width: 350px;
+  float: right;
+  padding: 10px;
+}  
+
+.section {
+    position: fixed;
+    top: 300px;
+    width: 350px;
+    margin-left: 25%;
+    float: left;
+    padding: 15px 15px 15px 15px;
+    
+.main {
+ 
    
 }
-    font-size: 22px;
-    
-  }
 
-    #masthead {
-      background-color: 16dbbb;
-      position: relative;
-      
-    }
+.aside {
+  top: 300px;
+  width 300px     
+  float: right;
+  padding: 15px;
+}
 
-  h1 {
-    font-family: "Niconne";
-    font-size: 64px;
-    float: right;
+footer {
 
-
-  }
-
-
-
-  h2 {
-    font-family: "Oswald bold";
-    font-size: 22px;
-
-  }
-
-#main {
-  position: 
 }
