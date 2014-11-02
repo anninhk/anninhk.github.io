@@ -2,13 +2,16 @@
 
  
 body {
-background: #C3E4ED;
+background: #bae2ff;
 width:100%;
-font-size: 134x;
+font-size: 15px;
 font-family: 'Droid Sans', 'Helvetica', sans-serif;
 font-weight: 400;
+font-color: #00004c;
 margin: 0px;
 padding: 0px;
+
+
 }
 
 h1 { 
@@ -20,14 +23,15 @@ h2 {
   font-size: 48px;
 }
 h3,h4
-    color: #8c100a;
+    font-color: #00004c;
     font-family: 'Oswald', sans-serif;
     font-weight: 400;
+    font-size: 140%;
 }
 
 #header-container {
   width: 100%;
-  height: 180px;
+  height: 170px;
   background-color: #0071b2;
 }
 
@@ -36,7 +40,7 @@ h3,h4
   width: 100%;
   height: 180px;
   margin-top: 2%;
-  margin-bottom: 2%;
+  margin-bottom: 4%;
   background-color: #0071b2;
   border-bottom: 3px #800020;
   margin: auto;
@@ -45,7 +49,8 @@ h3,h4
 #logo {
   float: left;
   padding-top: 15px;
-  padding-left: 160px;
+  padding-bottom: 15px;
+  padding-left: 150px;
   }
 
 #name {
@@ -58,8 +63,9 @@ h3,h4
 #nav {
   height: 76px;
   width: auto;
+  margin-left: 15px;
   padding-top: 144px;
-  padding-left: 158px;
+  padding-left: 180px;
   letter-spacing: 2px;
   word-spacing: 80px;
   font-weight: bold;
@@ -99,27 +105,45 @@ h3,h4
 
   }
 
-#sidebar {
-   margin-left: 10%;
+/* Sidebars */
+#left-sidebar, #right-sidebar {
+font-size:10pt;
+position:absolute;
+width:150px;
+}
+
+#left-sidebar {
+  margin-left: 15%;
   float: left;
   width:500px;
-  padding:20px;
+  padding:10px;
   font-color:#800020;
   font-size: 90%;
   font-style: italic;
   border-style: groove; 
   border-radius: 25px;
   border-width: 6px;
-  border-color: #800020;
+  border-color: #ff0000;
 
 }
+
+#right-sidebar {
+  right: 5px;
+  margin-right: 10%;
+  float: right;
+  width:500px;
+  padding:10px;
+  font-size: 90%;
+  font-style: italic;
+  border-top-style: groove;
+  border-width: 6px;
+  border-radius: 5px;
+  border-color: #ff0000;
+}
+   
 
 #footer{
-  background-color: #ffffff;
-  font-size: 85%;
-  border-top: 10px;
+  border-top: 2px;
   width: 100%;
-  margin-left: 10%;
-  padding: 5px 10px;
   clear: both;
-}
+  }
