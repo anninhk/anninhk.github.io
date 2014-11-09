@@ -49,8 +49,9 @@ p {
 
 #logo {
   float: left;
-  padding-left: 170px;
-  padding-right: 140px;
+  padding-top: 34px;
+  padding-left: 155px;
+  padding-right: 155px;
   clear: both;
      }
 
@@ -60,31 +61,38 @@ p {
    }
 
 .nav {
-  height: 76px;
-  width: auto;
-  margin-left: 15px;
-  padding-top: 144px;
-  padding-left: 180px;
+  padding-top: 135px;
   letter-spacing: 2px;
-  word-spacing: 80px;
-  font-weight: bold;
-  font-size: 130%;
-}
+  word-spacing: 25px;
+  font-weight: bold; 
+  }
     
  .nav ul {
-  text-align: left;
-  margin: auto;
+  list-style: none;
   width: auto;
+
  }   
 
  .nav li {
-  display: inline;
-  padding: 0px;
-  margin: 0px;
+  display: inline; 
  }
- 
-#main {
-      }
+
+.nav li a {
+  text-decoration: none;
+  padding: 5px 5px;
+  width: 100px;
+  background: #16dbbb;
+  text-align: center;
+  /* left the following in to highlight the "extra" nav button */
+  border-left: 1px solid #fff;
+  /* want to use  moz-border-radius: 15px;
+  -webkit-border-radius: 15px; here wheb sorted out problem with "extra" nav button */
+}
+
+.nav li a:hover {
+  background: #e51708;
+  color: #000;
+}
 
   .wrapper {
     margin-top: auto;
@@ -93,7 +101,7 @@ p {
     margin-right: auto;
     font-weight: bold; 
     border: 0px;
-    padding: 5px;
+    padding: 5px 5px 55px;
   }
 
 /* Sidebars */
@@ -141,6 +149,6 @@ width:150px;
   bottom:0;
   padding-top: 15px;
   padding-left: 180px;
-  font-weight: bold;
+  font-size: 80%;
   background-color: #16dbbb;
   }
