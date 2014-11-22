@@ -1,16 +1,30 @@
+
+
 body {
 	background-color: #bae2ff;
 	margin: 0px;
-	font-family: 'Droid Sans', 'Helvetica', sans-serif;
+	font-family: 'Georgia', serif;;
 	font-size: 14px;
 	font-weight: 100%;
 	margin: 0px;
 	padding: 0px;	
 }
 
+h1 {
+
+}
+
 h2 {
 	font-size: 48px;
 	font-family: Oswald;
+	color: #ffffff;
+	padding-bottom: 10px;
+}
+
+h3 {
+	font-size: 15px;
+	line-height: 21px;
+	font-weight: bold;
 	color: #ffffff;
 }
 
@@ -18,7 +32,7 @@ header {
 	width: 100%;
 	height: 500px;
 	margin: 0px auto;
-	background-color: #0071b2;
+	background-color: #0055b2;
 }
 
 .logo {
@@ -35,30 +49,46 @@ header {
 			}
 
 .nav {
-	margin: 15px auto;
-	width: 900px;
-	height: 50px;
-	letter-spacing: 2px;
-	word-spacing: 80px;
-	font-weight: bold;
-	font-size: 130%;
-	background-color: #16dbbb;
-	display: block;
+	margin-left: 850px;
+
+	
 	}
 
 .nav ul {
-	text-align: left;
-	margin: auto;
-	width: auto;
+	list-style-type: none;
+    margin: 0;
+    padding: 20px 0;
+
 }
 
 .nav li {
-	display: inline;
-	padding: 0px;
-	margin: 0px;
+	float: left;
+}
+.nav li a {
+	display: block;
+	width: 150px;
+	font-weight: bold;
+	background: #e89203;
+	text-align: center;
+	padding: 5px;
+	text-decoration: none;
+	letter-spacing: 2px;
+	word-spacing: 20px;
+	border-left: 1px solid #fff;
 }
 
-.wrapper {
-margin-top: 200px;
+.nav li a:hover {
+	background: #e51708;
 }
+
+.slogan {
+margin-top: 140px;
+width: 678px;
+margin-left: auto;
+margin-right: auto;
+border: 0;
+padding: 5px;
+text-align: center;
+
 		
+}
