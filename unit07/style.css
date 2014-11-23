@@ -1,9 +1,11 @@
 
-
 body {
-	background-color: #bae2ff;
 	margin: 0px;
-	font-family: 'Georgia', serif;;
+	padding: 0px;
+	background-color: #0071b2;
+	margin: 0px;
+	font-family: 'Droid Serif', serif;
+	color: #ffffff;
 	font-size: 14px;
 	font-weight: 100%;
 	margin: 0px;
@@ -11,18 +13,23 @@ body {
 }
 
 h1 {
-
-}
-
-h2 {
-	font-size: 48px;
+	font-size: 54px;
 	font-family: Oswald;
 	color: #ffffff;
 	padding-bottom: 10px;
 }
 
+h2 {
+	font-size: 24px;
+	font-family: Oswald;
+	line-height: 21px;
+	font-weight: bold;
+	color: #ffffff;
+}
+
 h3 {
-	font-size: 15px;
+	font-size: 20px;
+	font-family: Oswald;
 	line-height: 21px;
 	font-weight: bold;
 	color: #ffffff;
@@ -30,16 +37,58 @@ h3 {
 
 header {
 	width: 100%;
-	height: 500px;
+	height: 600px;
 	margin: 0px auto;
-	background-color: #0055b2;
+	background-color: #0071b2;
 }
+
+section {
+	font-size: 14px;
+	font-family: Droid serif;
+	word-spacing: 3px;
+	line-height: 21px;
+	font-weight: bold;
+	padding-top: 35px;
+	color: #ffffff;
+
+}
+
+div.img {
+	margin: 10px;
+	
+	height: auto;
+	
+	float: left;
+	text-align: center;
+	
+	    }	
+
+div.img img {
+    display: inline;
+    margin: 10px;
+    border: 1px solid #ffffff;
+}
+
+div.img a:hover img {
+    border: 1px solid #0000ff;
+}
+
+div.desc {
+  text-align: center;
+  font-weight: bold;
+  width: 120px;
+  margin: 5px;
+}
+
+
+
+
 
 .logo {
 	margin: 15px auto;
 	display: block;
-	width: 200px;
-	padding: 20px;
+	width: 100px;
+	padding: 10px 20px;
 	float: left;
 	clear: both;
 	}
@@ -49,16 +98,13 @@ header {
 			}
 
 .nav {
-	margin-left: 850px;
-
-	
+	margin-left: 900px;
 	}
 
 .nav ul {
 	list-style-type: none;
     margin: 0;
     padding: 20px 0;
-
 }
 
 .nav li {
@@ -66,7 +112,7 @@ header {
 }
 .nav li a {
 	display: block;
-	width: 150px;
+	width: 120px;
 	font-weight: bold;
 	background: #e89203;
 	text-align: center;
@@ -82,13 +128,23 @@ header {
 }
 
 .slogan {
-margin-top: 140px;
-width: 678px;
+margin-top: 50px;
+width: 700px;
 margin-left: auto;
 margin-right: auto;
 border: 0;
 padding: 5px;
 text-align: center;
 
-		
+}
+.content {
+	
+img {
+	float: left;
+    width: 110px;
+    height: 90px;
+    margin: 5px;
+    clear: both;
+}
+
 }
