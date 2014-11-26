@@ -55,35 +55,33 @@ header {
 }
 
 
-.portfolio {
-	width: 65%;
-	margin-left: 19%;
+
+
+
+aside.figures {
+	width: 70%;
+	margin-left: 15%;
+    overflow: hidden; /* only needed if floating the child elements instead of using inline-block */
 }
 
-div.img {
-	margin: 15px;
-	padding: 5px;
-	height: auto;
-	width: auto;
-	float: left;
-	text-align: center;
-	    }	
-
-div.img img {
-    display: inline;
-    margin: 10px;
-    border: 1px solid #ffffff;
+aside.figures figure {
+    display: inline-block;
+    clear: both;
+  
 }
 
-div.img a:hover img {
-    border: 1px solid #0000ff;
+
+aside.figures a:hover img {
+    border: 2px solid #e89203;
 }
 
-div.desc {
-  text-align: center;
-  font-weight: bold;
+
+figcaption {
+  text-align: left;
   width: 120px;
   margin: 5px;
+   clear: both;
+  
 }
 
 .logo {
@@ -157,5 +155,12 @@ section {
 }
 	
 
+footer {
+	width:100%;
+	position:absolute;
+	
+	clear: both;
+    text-align:center;
+    padding:5px; 
 
 
