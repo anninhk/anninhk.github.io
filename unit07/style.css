@@ -8,8 +8,7 @@ body {
 	color: #ffffff;
 	font-size: 14px;
 	font-weight: 100%;
-	margin: 0px;
-	padding: 0px;	
+	
 }
 
 
@@ -114,8 +113,9 @@ nav li a {
 	display: block;
 	width: 120px;
 	font-weight: bold;
-	background: #e89203;
+	background: #0AB5C9;
 	text-align: center;
+	color: #ffffff;
 	padding: 5px;
 	text-decoration: none;
 	letter-spacing: 2px;
@@ -124,7 +124,7 @@ nav li a {
 }
 
 nav li a:hover {
-	background: #e51708;
+	background: #0AB5C9;
 }
 
 .slogan {
@@ -158,9 +158,10 @@ section {
 footer {
 	width:100%;
 	position:absolute;
-	
+	margin-top: 20px;
 	clear: both;
     text-align:center;
+    color: #0AB5C9;
     padding:5px; 
 
 
