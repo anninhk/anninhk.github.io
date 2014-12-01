@@ -135,7 +135,6 @@ figure {
 	padding: 2.5em;
 	display: block;
 	float: left;
-	
   }
 
 figure a:hover img {
@@ -161,6 +160,29 @@ footer {
     padding: 0.5%; 
 }
 
+.about article {
+   	  	text-align: left;
+   	  	margin-left: 33.3%;
+   	  	margin-right: 33.3%;
+}
+
+.newspaper {
+    -webkit-column-count: 3; /* Chrome, Safari, Opera */
+    -moz-column-count: 3; /* Firefox */
+    column-count: 3;
+
+    -webkit-column-gap: 20px; /* Chrome, Safari, Opera */
+    -moz-column-gap: 20px; /* Firefox */
+    column-gap: 20px;
+
+    -webkit-column-rule: 4px outset #ff00ff; /* Chrome, Safari, Opera */
+    -moz-column-rule: 4px outset #ff00ff; /* Firefox */
+    column-rule: 4px outset #ff00ff;
+}
+
+
+
+
 /* iphone */
 @media all and (max-width: 30em) {
 	body {
@@ -180,6 +202,12 @@ footer {
 		width: 60%;
 	}
 	
+
+/* About page */
+
+
+
+
 
 }
 
