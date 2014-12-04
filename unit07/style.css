@@ -29,15 +29,15 @@ header {
 		margin-top: 10%;
 		margin-left: 10%;
 		padding: 1.23%;
-		float: left; /*added this in - pushed logo down and pulled nav up, but pulled .content up too, and moved h1 to left */
+		float: left; 
 		}	
 		.clearfix:after {
 		content:' ';
 		display:block;
 		clear:both;
 		}
-			
-	nav {
+/* ------------------- large nav -------------------- */			
+	.nav_lg {
 		display: block;
 		float: right;
 		margin: 0;
@@ -49,18 +49,17 @@ header {
 		clear:both;
 		}
 
-
-			nav ul {
+			.nav_lg ul {
 				list-style-type: none;
 			    margin: 0;
 			    padding : 0;
 			    }
 
-			nav li {
+			.nav_lg li {
 				float: left;
 			}
 
-			nav li a {
+			.nav_lg li a {
 				display: block;
 				width: 120px;
 				font-weight: bold;
@@ -74,9 +73,62 @@ header {
 				border-left: 1px solid #fff;
 			}
 
-			nav li a:hover {
+			.nav_lg li a:hover {
 				background: #e51708;
 			}
+
+
+/* ------------------- small nav -------------------- */
+
+.nav_sm{
+	display:none;
+}
+
+.nav_sm img {
+	float: left;
+}
+
+.nav_sm ul {
+  	list-style: none;
+  	margin:.5em;
+  	background:#ffffff;
+}
+
+.nav_sm li{
+	padding:1em;
+	background: #ffffff;
+}
+
+.nav_sm li:hover{
+	background:red;
+}
+
+.nav_sm li a{
+	text-decoration: none;
+	color:#333333;
+	font-weight:800;
+}
+
+.nav_sm li a:hover{
+	text-decoration: none;
+/*	color:#333333;
+	font-weight:800;*/
+}
+
+/* ------------------- toggle menu -------------------- */
+
+#menu-toggle {
+  display: none; /* hide the checkbox */
+}
+
+#menu {
+  display: none; /* hide the menu items */
+}
+
+/* when toggle is checked, dispaly the menu */
+#menu-toggle:checked + #menu {
+  display: block;
+}
 
 .content {
 	width: 100%;
@@ -214,27 +266,86 @@ article {
 
 
 
-
+/* ------------------- media queries -------------------- */
 /* iphone */
 @media all and (max-width: 30em) {
 	body {
 		font-size: 12px;
 	}
+
+	header {
+		width: 20%;
+		float: right;
+		clear: both;
+	}
+
 	h1 {
 		font-size: 2.25em;
 	}
 	h2 {
-		width: 90%
+		
 	}
- 	.logo img {
+	p {
+		width: 80%;
+		margin-left: 10%;
+
+	}
+
+	.nav_sm {
+		display: block; /*moved from below*/
+		float: left;
+		
+	}
+.clearfix:after {
+		content:' ';
+		display:block;
+		clear:both;
+		}
+
+	.nav_lg{
+		display:none;
+	}
+
+ 	.logo a img {
 		width: 62%;
 		height: 62%;
+		float: right;
+		clear: both;
 }
-	article {
+.clearfix:after {
+		content:' ';
+		display:block;
+		clear:both;
+		}
+
+	/* article {
 		width: 60%;
-	}
+	} */
 	
 }
+
+/*
+@media screen and (max-width:600px){
+
+	nav{
+		width:90%;
+		margin:1em;
+		float:left;
+		clear:both;
+	}
+
+	.nav_sm{
+		display:block;
+	}
+
+	.nav_lg{
+		display:none;
+	}
+
+}
+*/
+
+
 
 /*ipad portrait 768px */
 @media all and (min-width: 30.0625em) and (max-width: 48em) {
@@ -244,8 +355,11 @@ article {
 	h1 {
 		font-size: 3em;
 	}
-	h2 {
-		width: 60%
+			
+p {
+		width: 80%;
+		margin-left: 10%;
+
 	}
 	nav {
          width: 50%;
@@ -261,9 +375,9 @@ article {
 	width: 70%;
 	height: 70%;
 }	
-	article {
+	/*article {
 		width: 60%;
-	}
+	} */
 
 }
 
@@ -275,9 +389,11 @@ article {
 	h1 {
 		font-size: 3em;
 	}
-	h2 {
-		width: 60%
-	}
+	
+	p {
+		width: 80%;
+		margin-left: 10%;
+
 	.logo img {
 		width: 75%;
 		height: 75%;

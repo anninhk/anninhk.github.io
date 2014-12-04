@@ -1,0 +1,149 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	}
+
+body {
+	color: #ffffff;
+	background-color: #0071b2;
+	font-family: 'Droid Serif', serif;
+	font-size: 1em;
+	font-weight: 100%;
+	width: 100%;
+	height: 100%;
+	/* margin: 0px;
+	padding: 0px; */
+	}
+
+header {
+	width: 15%;
+	display: block;
+	margin: 0;
+}
+
+	.logo {
+		width: 100px;
+		height: 150px;
+		display: block;
+		margin-top: 10%;
+		margin-left: 10%;
+		padding: 1.23%;
+		float: right; 
+		}	
+		.clearfix:after {
+		content:' ';
+		display:block;
+		clear:both;
+		}
+			
+	.nav_lg {
+		display: block;
+		float: left;
+		margin: 0;
+		padding: 0.6% 1.23%;
+
+				}
+		.clearfix:after {
+		content:' ';
+		display:block;
+		clear:both;
+		}
+
+/* ------------------- large nav -------------------- */
+
+			.nav_lg ul {
+				list-style-type: none;
+			    margin: 0;
+			    padding : 0;
+			    }
+
+			.nav_lg li {
+				float: left;
+			}
+
+			.nav_lg li a {
+				display: block;
+				width: 120px;
+				font-weight: bold;
+				background: #0ab5c9;
+				text-align: center;
+				color: #ffffff;
+				padding: 5px;
+				text-decoration: none;
+				letter-spacing: 2px;
+				word-spacing: 20px;
+				border-left: 1px solid #fff;
+			}
+
+			.nav_lg li a:hover {
+				background: #e51708;
+			}
+
+
+/* ------------------- small nav -------------------- */
+
+.nav_sm{
+	display:none;
+}
+
+.nav_sm ul {
+  	list-style: none;
+  	margin:.5em;
+  	background:#ffffff;
+}
+
+.nav_sm li{
+	padding:1em;
+	background: #ffffff;
+}
+
+.nav_sm li:hover{
+	background:red;
+}
+
+.nav_sm li a{
+	text-decoration: none;
+	color:#333333;
+	font-weight:800;
+}
+
+.nav_sm li a:hover{
+	text-decoration: none;
+/*	color:#333333;
+	font-weight:800;*/
+}
+
+/* ------------------- toggle menu -------------------- */
+
+#menu-toggle {
+  display: none; /* hide the checkbox */
+}
+
+#menu {
+  display: none; /* hide the menu items */
+}
+
+/* when toggle is checked, dispaly the menu */
+#menu-toggle:checked + #menu {
+  display: block;
+}
+/* ------------------- media queries -------------------- */
+/* iphone */
+@media all and (max-width: 30em) {
+	body {
+		font-size: 12px;
+	}
+	h1 {
+		font-size: 2.25em;
+	}
+	h2 {
+		width: 90%
+	}
+ 	.logo img {
+		width: 62%;
+		height: 62%;
+}
+	article {
+		width: 60%;
+	}
