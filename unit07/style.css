@@ -17,7 +17,7 @@ body {
 	}
 
 header {
-	width: 10%;
+	width: 15%;
 	display: block;
 	margin: 0;
 }
@@ -26,17 +26,29 @@ header {
 		width: 100px;
 		height: 150px;
 		display: block;
-		margin: 0;
+		margin-top: 10%;
+		margin-left: 10%;
 		padding: 1.23%;
 		float: left; /*added this in - pushed logo down and pulled nav up, but pulled .content up too, and moved h1 to left */
-			}
+		}	
+		.clearfix:after {
+		content:' ';
+		display:block;
+		clear:both;
+		}
 			
 	nav {
 		display: block;
 		float: right;
 		margin: 0;
 		padding: 0.6% 1.23%;
+				}
+		.clearfix:after {
+		content:' ';
+		display:block;
+		clear:both;
 		}
+
 
 			nav ul {
 				list-style-type: none;
@@ -77,7 +89,7 @@ h1 {
 	color: #ffffff;
 	text-align: center;
 	padding: 0.618%;
-	margin-top: 3%;  /* problem?? Changing this affects the header and nav, too */
+	margin-top: 2%;  
 	}
 
 h2 {
