@@ -249,8 +249,9 @@ header {
 		clear: both;
 		}
 
+		/*image moves about within the background as resize screen- how to keep together? */
 	#sidebar img {
-		margin-left: 10.5%;
+		margin-left: 10%;
 		padding: 3% 2%;
 		}
 
@@ -368,7 +369,6 @@ textarea {
 	width:127px;
 	height:38px;
 	text-indent:-9999px;
-	color: #333333;
 	border:none;
 	margin-top:20px;
 	cursor:pointer;
