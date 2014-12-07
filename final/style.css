@@ -181,12 +181,6 @@ header {
 		color: #ffffff;
 		}
 		
-/* article {
-	width: 50%;
-	padding: 0.6%;
-	margin: 3% auto 7%;
-} */
-
 	hr { 
 	    display: block;
 	    margin-top: 0.5em;
@@ -201,7 +195,7 @@ header {
 
 	figure {
 		display: block;
-		margin-left: 9%;
+		margin-left: 10.5%;
 		margin-right: auto;
 		padding: 1%;
 		float: left;
