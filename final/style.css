@@ -85,12 +85,14 @@ header {
 		}
 
 	.nav_sm ul {
+		display: block;
 	  	list-style: none;
 	  	margin:.5em;
 	  	background:#ffffff;
 		}
 
 	.nav_sm li{
+		display: block;
 		padding:1em;
 		background: #ffffff;
 		}
@@ -195,10 +197,16 @@ header {
 
 	figure {
 		display: block;
-		margin-left: 10.5%;
-		margin-right: auto;
+		width: 75%;
+		margin: 0 auto;
 		padding: 1%;
-		float: left;
+  		}
+
+  		figure a img {
+  			display: block;
+  			margin: 0 auto;
+  			width: 15%;
+  			float: left;
   		}
 
 		figure a:hover img {
@@ -360,11 +368,13 @@ textarea {
 	}
 
 #submit {
-	width:127px;
-	height:38px;
+	width:135px;
+	height:27px;
 	text-indent:-9999px;
-	border:none;
-	margin-top:20px;
+	margin-top: 20px;
+	border-radius: 5px;
+	background: #ffffff;
+	color: #000000;
 	cursor:pointer;
 	}
 
@@ -452,7 +462,11 @@ footer {
 		float: right;
 		clear: both;
 		}
-	}
+
+	/*  .figure a img {
+		width: 100%;
+	} */
+	
 
 	/* article {
 		width: 60%;
