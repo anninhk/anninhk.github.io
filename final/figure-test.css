@@ -1,0 +1,54 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	}
+
+
+
+h3 {
+		font-size: 1.313em;
+		font-family: Oswald;
+		line-height: 1.313em;
+		font-weight: bold;
+		width: 33%;
+		padding: 1.5% 1%;
+		text-align: center;
+		color: #ffffff;
+		margin-left: 33%;
+		}
+
+section {
+			display: block;
+  			margin: 0 auto;
+  			width: 100%;
+  			float: left;
+}
+
+
+
+.gallery {
+		width: 75%;
+		margin-left: 25%;
+		
+		
+  		}
+
+  		.gallery img {
+  			width: 15%;
+  			float: left;
+  			margin-right: 4%;
+  			margin-bottom: 1%}
+
+  		}
+
+		
+
+#article p.notable {
+	    border: 2px solid #000000;
+	    padding: 10px 40px; 
+	    background color: #e89203;
+	    width: 300px;
+	    border-radius: 25px !important;*/
+	} 
+		

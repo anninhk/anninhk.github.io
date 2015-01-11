@@ -193,7 +193,7 @@ header {
 	    border-style: inset;
 	 	}
    	
-/* photo gallery */
+/* photo gallery 
 
 	figure {
 		display: block;
@@ -220,7 +220,50 @@ header {
 		  	padding: 1em 0 1.5em;
 		 	font-size: 0.75em;
 		  	clear: both;
-		  	}
+		  	}*/
+
+section {
+	
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 45%;
+
+
+
+}
+
+div.img {
+    margin: 15px;
+    padding: 5px;
+    border: 1px solid #0000ff;
+    height: auto;
+    width: auto;
+    float: left;
+    text-align: center;
+    
+}
+
+div.img img {
+    display: inline;
+    margin: 5px;
+    border: 1px solid #ffffff;
+}
+
+div.img a:hover img {
+    border:1px solid #0000ff;
+}
+
+div.desc {
+    text-align: left;
+    font-weight: normal;
+    font-size: 75%;
+    width: 140px;
+    margin: 5px;
+}
+
+
+
  	
 	footer {
 		width:100%;
@@ -294,14 +337,18 @@ header {
 		text-align: left;
 		}
 
-	/* why does the following not work? Want the par to go in a box */
+	/* why does the following not work? Want the par to go in a box 
 	#article p.notable {
 	    border: 2px solid #000000;
 	    padding: 10px 40px; 
 	    background color: #e89203;
 	    width: 300px;
-	    border-radius: 25px !important;
+	    border-radius: 25px !important;*/
 	} 
+mark { /** why not working as new color?**/
+    background-color:#c3e4ed;
+    color: black;
+}
 
 	
 /* contact page */
