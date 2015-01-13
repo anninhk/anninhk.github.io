@@ -32,7 +32,7 @@ header {
 		float: left; 
 		}	
 		.clearfix:after {
-		content:' ';
+		#article:' ';
 		display:block;
 		clear:both;
 		}
@@ -44,7 +44,7 @@ header {
 		padding: 0.6% 1.23%;
 				}
 		.clearfix:after {
-		content:' ';
+		#article:' ';
 		display:block;
 		clear:both;
 		}
@@ -263,8 +263,6 @@ div.desc {
     margin: 5px;
 }
 
-
-
  	
 	footer {
 		width:100%;
@@ -285,20 +283,51 @@ div.desc {
 		background-color: #0071b2;
 		}
 		
+	#article {
+		width: 40%;
+		margin-top: 10%;
+		margin-left: 10%;
+		float: left;
+		clear: both;
+		 display:inline; 
+   float:left;
+   		
+	}	
+	#article h3 {
+		text-align: left;
+		}
+
+#article p {
+		width: 90%;
+		margin-top: 0;
+		margin-left: 5%;
+		margin-right: 15%;
+		text-align: left;
+				}
+#article p.notable {
+	    border: 2px solid #0ab5c9;
+	    padding: 10px 40px; 
+	    width: 81%;
+	    border-radius: 25px !important;
+	}		
+			
 	#sidebar {
 		width: 18%;
 		margin-top: 10%;
-		margin-left: 10%;
+		margin-right: 10%;
+		margin-left: 15%;
 		border: 2px solid;
 		background-color: #c3e4ed;
-		float: left;
-		clear: both;
-		}
+		 display:inline; 
+   float: left;
+		
+			}
 
-		/*image moves about within the background as resize screen- how to keep together? */
+			/*image moves about within the background as resize screen- how to keep together? */
 	#sidebar img {
-		margin-left: 10%;
-		padding: 3% 2%;
+		width: 95%;
+		margin-left: 2.5%;
+		padding: 3% 3%;
 		}
 
 	#sidebar h3 {
@@ -318,38 +347,8 @@ div.desc {
 		font-size: 0.875em;
 		color: #000000;
 		text-align: left;
-		padding-bottom: 3%;
+		padding-bottom: 4%;
 		}
-
-	#article {
-		width: 50%;
-		margin-top: 10%;
-		margin-left: 40%;
-		}
-
-	#article h3 {
-		text-align: left;
-		}
-
-	#article p {
-		width: 80%;
-		margin-top: 0;
-		margin-left: 5%;
-		text-align: left;
-		}
-
-	/* why does the following not work? Want the par to go in a box 
-	#article p.notable {
-	    border: 2px solid #000000;
-	    padding: 10px 40px; 
-	    background color: #e89203;
-	    width: 300px;
-	    border-radius: 25px !important;*/
-	} 
-mark { /** why not working as new color?**/
-    background-color:#c3e4ed;
-    color: black;
-}
 
 	
 /* contact page */
@@ -476,7 +475,7 @@ footer {
 		}	
 
 	.clearfix:after {
-		content:' ';
+		#article:' ';
 		display:block;
 		clear:both;
 		}
@@ -492,7 +491,7 @@ footer {
 			}
 
 			.box-shadow-menu:before {
-	  		content: "";
+	  		#article: "";
 		  	position: absolute;
 		  	left: 0.5em;
 		  	top: 0.2em;
@@ -516,7 +515,7 @@ footer {
 	} */
 	
 
-	/* article {
+	/* #article {
 		width: 60%;
 	} */
 	
