@@ -22,6 +22,7 @@ header {
 	margin: 0;
 	}
 
+/* ------------------- large logo -------------------- */
 	.logo {
 		width: 100px;
 		height: 150px;
@@ -32,11 +33,20 @@ header {
 		float: left; 
 		}	
 		.clearfix:after {
-		#article:' ';
+		content:' ';
+		visibility: hidden;
 		display:block;
 		clear:both;
 		}
-/* ------------------- large nav -------------------- */			
+
+
+		.logo_sm img {
+			display: none;
+}
+
+
+
+	/* ----------------------- large nav ------------------------ */	
 	.nav_lg {
 		display: block;
 		float: right;
@@ -44,7 +54,7 @@ header {
 		padding: 0.6% 1.23%;
 				}
 		.clearfix:after {
-		#article:' ';
+		content:' ';
 		display:block;
 		clear:both;
 		}
@@ -223,16 +233,16 @@ header {
 		  	clear: both;
 		  	}*/
 
-section {
+div.projects{
 	
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-	width: 45%;
-
-
+	width: 40%;
+	background-color: orange;
 
 }
+
 
 div.img {
     margin: 15px;
@@ -241,22 +251,22 @@ div.img {
     height: auto;
     width: auto;
     float: left;
-    text-align: center;
+   
     
 }
-
+/*
 div.img img {
     display: inline;
     margin: 5px;
     border: 1px solid #ffffff;
 }
-
+*/
 div.img a:hover img {
     border:1px solid #0000ff;
 }
 
 div.desc {
-    text-align: left;
+    text-align: center;
     font-weight: normal;
     font-size: 75%;
     width: 140px;
@@ -356,30 +366,32 @@ div.desc {
 
 .contact
 
+body, div, form, fieldset, input, textarea {
+	margin: 0; padding: 0; border: 0; outline: none;
+}
+
 	section {
-		display: block;
-	    width: 50%;
-	    margin: auto;
+		
+	    width: 30%;
+	    margin-left: 20%;
 	    padding: 10px;
-	    background-color: #e89203;
+	    /*background-color: #e89203;*/
+	    float: left;
+	    clear: both;
 		}
 
 	div#one {
 	    width: 33%;
-	    margin-left: 28%;
+	    margin-left: 15%;
 	    float: left;
 	}
 
-	}
-	div#two {
-		margin-left: 30%;
-	    float: right;
-  	}
+	
 
 form {
-	/*width:33%;
+	width:20%;
 	float: left;
-	clear: both;*/
+	clear: both;
 	}
 
 label {
@@ -388,6 +400,7 @@ label {
 	margin-top:20px;
 	letter-spacing:2px;
 	}
+
 
 input, textarea {
 	width:439px;
@@ -404,7 +417,7 @@ input, textarea {
 	color:#3a3a3a;
 	}
 	
-	input:focus, textarea:focus {
+  textarea:focus {
 		border:1px solid #97d6eb;
 	}
 
@@ -414,35 +427,52 @@ textarea {
 	background: #efefef;
 	}
 
-#submit {
-	width:135px;
+
+
+ #submit {
+	width:50px;
 	height:27px;
 	text-indent:-9999px;
 	margin-top: 20px;
 	border-radius: 5px;
+	background-position: right;
 	background: #ffffff;
 	color: #000000;
 	cursor:pointer;
-	}
+	} 
+
+
 
 	#submit:hover {
 		opacity:0.9;
 		}
-
+}
+	div#two {
+		margin-left: 50%;
+	    float: right;
+  	}
 	.contact-details 								
 	ul {
+		color: #000;
 		list-style-type: none;
-		}
+		background-color: #FFFFCC;
+		width: 20%;
+		height: 10%;
+		margin-right: 15%;
+		padding: 2%;
+		float: right;
+				}
 
 footer {
-	margin-top: 15%;
+	margin-top: 17%;
 	}
 
 
 /* background color for testing: #e89203; */
 
-/* ------------------- media queries -------------------- */
-/* iphone */
+/* ---------------------------------------- media queries ----------------------------------------- */
+
+/* -----------------------------------------iphone ----------------------------------------------------*/
 @media all and (max-width: 30em) {
 	body {
 		font-size: 12px;
@@ -463,6 +493,8 @@ footer {
 		margin-left: 10%;
 		}
 
+		
+
 	.nav_sm {
 		display: block; 
 		float: left;
@@ -475,7 +507,7 @@ footer {
 		}	
 
 	.clearfix:after {
-		#article:' ';
+		content:' ';
 		display:block;
 		clear:both;
 		}
@@ -491,7 +523,7 @@ footer {
 			}
 
 			.box-shadow-menu:before {
-	  		#article: "";
+	  		content: "";
 		  	position: absolute;
 		  	left: 0.5em;
 		  	top: 0.2em;
@@ -503,12 +535,29 @@ footer {
 			    0 2.5em 0 0 #ffffff;
 			}
   
- 	.logo a img {
- 		width: 55%;
-		height: 55%;
-		float: right;
-		clear: both;
-		}
+.logo img {
+	display: none;
+}
+
+ 	.logo_sm {
+ 		display: block;
+ 		float: right;
+ 	}
+
+	div.img {
+    margin: 10px;
+    padding: 5px; 
+    border: 1px solid #0000ff;
+    width: 100%;
+    float: left;
+    display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+	div.img a:hover img {
+    border:1px solid #0000ff;
+   
 
 	/*  .figure a img {
 		width: 100%;
@@ -565,11 +614,11 @@ footer {
     		float:none;
   		}
 
-	.logo img {
+	.logo_sm img {
 		width: 70%;
 		height: 70%;
 		}	
-	}
+
 
 /*ipad landscape 1024px */
 @media all and (min-width: 48.0025em) and (max-width: 64em) {
@@ -589,6 +638,5 @@ footer {
 		width: 75%;
 		height: 75%;
 	}
-	/
-	}
+	
 
